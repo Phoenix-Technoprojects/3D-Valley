@@ -39,8 +39,14 @@ export function renderValley3D(containerId, quotientData) {
     colorscale: 'Jet',
 	reversescale: true,
     showscale: true,
-    opacity: 0.3,
-  };
+    opacity: 0.5,
+	colorbar: {
+		tickfont: {
+			color: 'white',
+			size: 12,
+			family: 'Oxygen, sans-serif'}
+		}
+	};
 
   const marker = {
     type: 'scatter3d',
