@@ -40,10 +40,6 @@ export function renderValley3D(containerId, quotientData) {
 	reversescale: true,
     showscale: true,
     opacity: 0.3,
-	  colorbar: {
-    tickfont: {
-      color: 'white' // ✅ this changes the label text color
-    }
   };
 
   const marker = {
