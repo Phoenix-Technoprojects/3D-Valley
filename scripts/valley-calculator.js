@@ -7,7 +7,7 @@ export function createCalculator(containerId) {
   const container = document.getElementById(containerId);
   container.innerHTML = `
     <div class="calculator-card">
-      <h2 class="calculator-title">Valley Readiness Calculator</h2>
+      <!--h2 class="calculator-title">Valley Readiness Calculator</h2-->
       <div class="calculator-grid-3x2">
         <div class="calculator-input">
           <label for="trl">TRL Level (0-9)</label>
