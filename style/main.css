@@ -54,7 +54,7 @@ main section {
 
 #calculator-section,
 #valley-3d-section {
-  background: #ffffff;
+  background: transparent;
   padding: 0.25rem;
   /*border-radius: 10px;*/
   /*box-shadow: 0 0 15px rgba(249, 178, 51, 0.1);*/
