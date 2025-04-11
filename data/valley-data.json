@@ -1,0 +1,50 @@
+[
+  {
+    "TRL": 4,
+    "FRL": 3,
+    "MRKL": 2,
+    "MRL": 2,
+    "ORL": 3,
+    "Complexity": 7
+  },
+  {
+    "TRL": 6,
+    "FRL": 5,
+    "MRKL": 5,
+    "MRL": 6,
+    "ORL": 6,
+    "Complexity": 5
+  },
+  {
+    "TRL": 2,
+    "FRL": 1,
+    "MRKL": 2,
+    "MRL": 3,
+    "ORL": 2,
+    "Complexity": 9
+  },
+  {
+    "TRL": 7,
+    "FRL": 6,
+    "MRKL": 6,
+    "MRL": 7,
+    "ORL": 8,
+    "Complexity": 3
+  },
+  {
+    "TRL": 5,
+    "FRL": 4,
+    "MRKL": 4,
+    "MRL": 5,
+    "ORL": 4,
+    "Complexity": 6
+  },
+  {
+    "TRL": 3,
+    "FRL": 2,
+    "MRKL": 3,
+    "MRL": 3,
+    "ORL": 2,
+    "Complexity": 8
+  }
+]

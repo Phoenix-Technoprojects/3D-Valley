@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Valley of Death Visualisation</title>
+  <link rel="stylesheet" href="./style/main.css" />
+  <!-- Plotly for 3D visualization -->
+  <script src="https://cdn.plot.ly/plotly-2.27.0.min.js"></script>
+  <!-- D3 for heatmap and UI -->
+  <script src="https://d3js.org/d3.v7.min.js"></script>
+</head>
+<body>
+  <!--header>
+    <h1>The Way of the Phoenix: Valley of Death</h1>
+  </header-->
+
+  <main>
+    <!-- Shared Grid: Calculator + 3D Plot Side-by-Side -->
+    <section id="main-grid">
+      <!-- Calculator Section -->
+      <div id="calculator-section">
+        <!--h2>Readiness Calculator</h2-->
+        <div id="calculator"></div>
+        <div id="readiness-output"></div>
+      </div>
+
+      <!-- 3D Valley Plot -->
+      <div id="valley-3d-section">
+        <!--h2>3D Readiness Landscape</h2-->
+        <div id="valley-3d"></div>
+      </div>
+    </section>
+
+    <!-- 2D Heatmap Plot -->
+    <section id="heatmap-section">
+      <!--h2>2D TRL-Weighted Readiness Heatmap</h2-->
+      <div id="valley-heatmap"></div>
+    </section>
+  </main>
+  
+  <!-- Scripts in suggested modular order -->
+  <script type="module" src="./scripts/valley-utils.js"></script>
+  <script type="module" src="./scripts/valley-bootstrap.js"></script>
+  <script type="module" src="./scripts/valley-calculator.js"></script>
+  <script type="module" src="./scripts/valley-3d.js"></script>
+  <script type="module" src="./scripts/valley-heatmap.js"></script>
+</body>
+</html>
