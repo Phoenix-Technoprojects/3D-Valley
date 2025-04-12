@@ -134,7 +134,7 @@ const readinessData = [
 ];
 
 function createDropdown(id, name, levels) {
-  let options = levels.map((desc, i) => `<option value="${i}">${i} - ${desc}</option>`).join('');
+  let options = levels.map((desc, i) => `<option value="${i+1}">${i} - ${desc}</option>`).join('');
   return `
     <div class="calculator-input">
       <label for="${id}">${name}</label>
