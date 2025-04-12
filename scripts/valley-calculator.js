@@ -134,7 +134,7 @@ const readinessData = [
 ];
 
 function createDropdown(id, name, levels) {
-  let options = levels.map((desc, i) => `<option value="${i+1}">${i} - ${desc}</option>`).join('');
+  let options = levels.map((desc, i) => `<option value="${i}">${i+1} - ${desc}</option>`).join('');
   return `
     <div class="calculator-input">
       <label for="${id}">${name}</label>
@@ -168,11 +168,11 @@ export function createCalculator(containerId) {
   `;
 
   document.getElementById('calculateBtn').addEventListener('click', () => {
-    const trl = parseInt(document.getElementById('trl').value);
-    const frl = parseInt(document.getElementById('frl').value);
-    const mrkl = parseInt(document.getElementById('mrkl').value);
-    const mrl = parseInt(document.getElementById('mrl').value);
-    const orl = parseInt(document.getElementById('orl').value);
+    const trl = parseInt(document.getElementById('trl').value)+1;
+    const frl = parseInt(document.getElementById('frl').value)+1;
+    const mrkl = parseInt(document.getElementById('mrkl').value)+1;
+    const mrl = parseInt(document.getElementById('mrl').value)+1;
+    const orl = parseInt(document.getElementById('orl').value)+1;
     const complexity = parseFloat(document.getElementById('complexity').value);
 
     if ([trl, frl, mrkl, mrl, orl, complexity].some(v => isNaN(v))) {
