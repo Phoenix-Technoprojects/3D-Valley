@@ -12,9 +12,9 @@ document.addEventListener('DOMContentLoaded', () => {
   createCalculator('calculator');
 
   // 3. Pre-draw the heatmap using your sample scenarios
-  fetch('./scripts/valley-data.json')
+  /*fetch('./scripts/valley-data.json')
      .then(res => res.json())
-     .then(scenarios => renderHeatmap(scenarios, 'valley-heatmap'));
+     .then(scenarios => renderHeatmap(scenarios, 'valley-heatmap'));*/
 
   // 4. Listen for calculate button and then render 3D plot
   const btn = document.querySelector('#calculator button');
